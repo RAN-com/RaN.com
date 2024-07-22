@@ -40,14 +40,14 @@ const Work = () => {
                      
                       
                     ))}
-                      {/* <motion.div
+                      <motion.div
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0,x:100}}
                 transition={{duration:1}}
                 ><button
                 className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             
-                >{project.Demo}</button></motion.div> */}
+                >{project.Demo}</button></motion.div>
                     
                     
                 </motion.div>

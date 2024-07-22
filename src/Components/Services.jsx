@@ -33,13 +33,13 @@ const Services = () => {
          whileInView={{opacity:1,x:0}}
          initial={{opacity:0,x:-100}}
          transition={{duration:0.5}}
-        className="rounded-2xl border-4 border-neutral-800 p-20">
-            <CgWebsite className="text-7xl text-cyan-400"/><br/>
+        className="rounded-2xl border-4 h-80 w-60 border-neutral-800 p-20 ">
+            <CgWebsite className="text-7xl text-cyan-400 "/><br/>
             <h1>Web design& <br/>Development</h1>
         </motion.div>
         <motion.div  whileInView={{opacity:1,y:0}}
            initial={{opacity:0,y:-100}}
-           transition={{duration:1.5}} className="rounded-2xl border-4 border-neutral-800 p-20">
+           transition={{duration:1.5}} className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             < FaYoutube className=" text-7xl text-red-700"/><br/>
             <h1 >Content <br/>Makeing</h1>
         </motion.div>
@@ -47,7 +47,7 @@ const Services = () => {
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x: 100}}
           transition={{duration:0.5}}
-        className="rounded-2xl border-4 border-neutral-800 p-20">
+        className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <BsAppIndicator  className="text-7xl text-cyan-400"/><br/>
             <h1>App Design& <br/>Development</h1>
         </motion.div>
@@ -55,16 +55,17 @@ const Services = () => {
       
        
     </div>
+    <br/>
     <div className=" flex items-center text-center justify-center gap-6 h-80">
         <motion.div
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x: -100}}
             transition={{duration:1}}
-        className="rounded-2xl border-4 border-neutral-800 p-20">
+        className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <FaInstagram className="text-7xl text-pink-300 "/><br/>
             <h1>Insta Poster</h1>
         </motion.div>
-        <div className="rounded-2xl border-4 border-neutral-800 p-20">
+        <div className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <IoLogoApple className="  text-7xl text--400"/><br/>
             <h1>Logo<br/> Design</h1>
         </div>
@@ -72,7 +73,7 @@ const Services = () => {
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x: 100}}
             transition={{duration:1}}
-         className="rounded-2xl border-4  border-neutral-800 p-20">
+         className="rounded-2xl h-80 w-60 border-4  border-neutral-800 p-20">
             <FaCamera className="text-7xl text-blue-400"/><br/>
             <h1>Photography</h1>
         </motion.div>
@@ -80,18 +81,19 @@ const Services = () => {
       
        
     </div>
+    <br/>
     <div className=" flex items-center text-center justify-center gap-6 h-80">
         <motion.div
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x: -100}}
             transition={{duration:1}}
-        className="rounded-2xl border-4 border-neutral-800 p-20">
+        className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <FaAddressCard  className="text-7xl text-cyan-400 "/><br/>
             <h1>Digital <br/> visting Card</h1>
         </motion.div>
         <motion.div  whileInView={{opacity:1,y:0}}
            initial={{opacity:0,y: 100}}
-           transition={{duration:1.5}} className="rounded-2xl border-4 border-neutral-800 p-20">
+           transition={{duration:1.5}} className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <TbHealthRecognition className="  text-7xl text-green-400"/><br/>
             <h1>Nutrition</h1>
         </motion.div>
@@ -99,9 +101,9 @@ const Services = () => {
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x: 100}}
             transition={{duration:1}}
-         className="rounded-2xl border-4 border-neutral-800 p-20">
+         className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <SiDavinciresolve className="text-7xl text-blue-400"/><br/>
-            <h1>VideoEditing</h1>
+            <h1>Video Editing</h1>
         </motion.div>
         
       
