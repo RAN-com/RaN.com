@@ -60,10 +60,26 @@ export const PROJECTS = [
   //       Demo:"Live Demo"
   // },
   {
-    title: "Portfolio Website",
+    title: "Digtal Visiting Card",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "  Website your business information.",
+    technologies: ["HTML", "CSS", "React"],
+        Demo:"Live Demo"
+  },
+  {
+    title: "Photography website",
+    image: project3,
+    description:
+      "Capture Moments Photography offers a variety of services designed to preserve your most cherished memories",
+    technologies: ["HTML", "CSS", "React"],
+        Demo:"Live Demo"
+  },
+  {
+    title: "Online Shopping Website (e-com)",
+    image: project3,
+    description:
+      " your ultimate online shopping destination, offering a seamless and enjoyable shopping experience with a wide range of products at your fingertips",
     technologies: ["HTML", "CSS", "React"],
         Demo:"Live Demo"
   },
