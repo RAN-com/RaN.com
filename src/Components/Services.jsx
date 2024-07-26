@@ -95,7 +95,7 @@ const Services = () => {
            initial={{opacity:0,y: 100}}
            transition={{duration:1.5}} className="rounded-2xl h-80 w-60 border-4 border-neutral-800 p-20">
             <TbHealthRecognition className="  text-7xl text-green-400"/><br/>
-            <h1>Nutrition</h1>
+            <h1><a href='https://mr-health-nutrition-centre.vercel.app/'>Nutrition</a></h1>
         </motion.div>
         <motion.div 
             whileInView={{opacity:1,x:0}}
