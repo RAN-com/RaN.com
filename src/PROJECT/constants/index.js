@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import mrhealth from '../../assets/MacBookAir-1.png'
+import Digtal from '../../assets/digtal.png'
 
 export const HERO_CONTENT = `As a dedicated full stack developer, I possess a comprehensive skill set encompassing both front-end and back-end development, ensuring the creation of seamless, efficient, and user-friendly web applications. My expertise spans various programming languages, frameworks, and tools, allowing me to tackle complex projects with innovative solutions. I am passionate about staying current with industry trends and continuously enhancing my technical knowledge.`;
 
@@ -60,8 +62,8 @@ export const PROJECTS = [
   //       Demo:"Live Demo"
   // },
   {
-    title: "Online Shopping Website (e-com)",
-    image: project3,
+    title: "Mr.health Nutrition website",
+    image: mrhealth,
     description:
       " your ultimate online shopping destination, offering a seamless and enjoyable shopping experience with a wide range of products at your fingertips",
     technologies: ["HTML", "CSS", "React"],
@@ -71,32 +73,32 @@ export const PROJECTS = [
   
   {
     title: "Digtal Visiting Card",
-    image: project3,
+    image: Digtal,
     description:
       "  Website your business information.",
     technologies: ["HTML", "CSS", "React"],
         Demo:"Live Demo",
          url:"https://mr-health-nutrition-centre.vercel.app/"
   },
-  {
-    title: "Photography website",
-    image: project3,
-    description:
-      "Capture Moments Photography offers a variety of services designed to preserve your most cherished memories",
-    technologies: ["HTML", "CSS", "React"],
-        Demo:"Live Demo",
-         url:"https://mr-health-nutrition-centre.vercel.app/"
-  },
-  {
-    title: "Online Shopping Website (e-com)",
-    image: project3,
-    description:
-      " your ultimate online shopping destination, offering a seamless and enjoyable shopping experience with a wide range of products at your fingertips",
-    technologies: ["HTML", "CSS", "React"],
-        Demo:"Live Demo",
-         url:"https://mr-health-nutrition-centre.vercel.app/"
+  // {
+  //   title: "Photography website",
+  //   image: project3,
+  //   description:
+  //     "Capture Moments Photography offers a variety of services designed to preserve your most cherished memories",
+  //   technologies: ["HTML", "CSS", "React"],
+  //       Demo:"Live Demo",
+  //        url:"https://mr-health-nutrition-centre.vercel.app/"
+  // },
+  // {
+  //   title: "Online Shopping Website (e-com)",
+  //   image: project3,
+  //   description:
+  //     " your ultimate online shopping destination, offering a seamless and enjoyable shopping experience with a wide range of products at your fingertips",
+  //   technologies: ["HTML", "CSS", "React"],
+  //       Demo:"Live Demo",
+  //        url:"https://mr-health-nutrition-centre.vercel.app/"
         
-  },
+  // },
   
   
 ];

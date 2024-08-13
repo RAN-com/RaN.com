@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Work = () => {
   return (
-    <div className="border-b border-neutral-900 pb-24">
+    <div className="border-b  border-neutral-900 pb-24">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -15,7 +15,7 @@ const Work = () => {
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div key={index} className="mb-8 gap-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
